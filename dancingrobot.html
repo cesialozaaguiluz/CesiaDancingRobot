@@ -45,43 +45,47 @@ animation: geeks 17s infinite;
 margin-left: 43%;
 }
 
-5.88% {
+6.05958824% {
 margin-left: 80%;
 }
 
-11.76% {
+12.1638235% {
 margin-left: 43%;
 }
 
-14.7% {
+13.2590588% {
 margin-left: 3%;
 }
 
-15.435% {
+15.9837647% {
 margin-left: 5%;
 }
 
-16.17% {
+16.59817765% {
 margin-left: 3%;
 }
 
-16.905% {
+17.59817765% {
 margin-left: 5%;
 }
 
-17.64% {
+18.59817765% {
 margin-left: 3%;
 }
 
-23.53% {
+19.59817765% {
+margin-left: 5%;
+}
+
+23.5418824% {
 margin-left: 43%;
 }
 
-26.47% {
+29.4491765% {
 margin-left: 70%;
 }
 
-29.41% {
+31.9332941% {
 margin-left: 43%;
 }
 }
@@ -120,11 +124,20 @@ margin-right: auto;
 border-radius: 10%;
 translate: -80px -400px;
 }
+.leftleg {
+background: #262331;
+width: 15%;
+height: 200px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 10%;
+translate: -80px -400px;
+}
 </style>
 </head>
 <body>
 <div class="stage">
-<video width="320" height="240" controls autoplay>
+<video width="320" height="240" controls onloadeddata="true" autoplay>
   <source src="robot.mov" type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -133,6 +146,7 @@ Your browser does not support the video tag.
 <div class="body"></div>
 <div class="rightarm"></div>
 <div class="leftarm"></div>
+<div class="leftleg"></div>
 </div>
 </div>
 
