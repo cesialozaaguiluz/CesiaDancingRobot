@@ -356,6 +356,38 @@ margin-left: auto;
 margin-right: auto;
 border-radius: 50%;
 }
+.hairtop {
+  background: black;
+  width: 70px;
+  height: 25px;
+  display: inline-block;
+  border-radius: 50%;
+  translate: 0px -15px;
+}
+.hairleft {
+  background: black;
+  width: 10px;
+  height: 30px;
+  display: inline-block;
+  border-radius: 50%;
+  translate: -11px -45px;
+}
+.hairright {
+  background: black;
+  width: 10px;
+  height: 30px;
+  display: inline-block;
+  border-radius: 50%;
+  translate: 39px -45px;
+}
+.hairback {
+  background: black;
+  width: 20px;
+  height: 30px;
+  display: inline-block;
+  border-radius: 50%;
+  translate: 20px -15px;
+}
 .body {
 background: #1b1b1b;
 width: 50%;
@@ -363,6 +395,15 @@ height: 170px;
 margin-left: auto;
 margin-right: auto;
 border-radius: 10%;
+}
+.logo {
+background: #ffffff;
+width: 15px;
+height: 10px;
+margin-left: auto;
+margin-right: auto;
+translate: 30px 15px;
+border-radius: 20%;
 }
 .rightarm {
 background: #1b1b1b;
@@ -376,6 +417,15 @@ transform-origin: top left;
 
 animation: geeksrightarm 17.22049s infinite;
 }
+.righthand {
+background: #fca48e;
+width: 34px;
+height: 10px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 20%;
+translate: -1px 160px;
+}
 .leftarm {
 background: #1b1b1b;
 width: 15%;
@@ -387,6 +437,15 @@ translate: -80px -340px;
 transform-origin: top right;
 
 animation: geeksleftarm 17.22049s infinite;
+}
+.lefthand {
+background: #fca48e;
+width: 34px;
+height: 10px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 20%;
+translate: -1px 160px;
 }
 .leftleg {
 background: #262e3c;
@@ -421,10 +480,21 @@ animation: geeksrightleg 17.22049s infinite;
 Your browser does not support the video tag.
 </video>
 <div class="wholebody">
-<div class="head"></div>
-<div class="body"></div>
-<div class="rightarm"></div>
-<div class="leftarm"></div>
+<div class="head">
+  <div class="hairtop"></div>
+  <div class="hairleft"></div>
+  <div class="hairright"></div>
+  <div class="hairback"></div>
+</div>
+<div class="body">
+  <div class="logo"></div>
+</div>
+<div class="rightarm">
+  <div class="righthand"></div>
+</div>
+<div class="leftarm">
+  <div class="lefthand"></div>
+</div>
 <div class="leftleg"></div>
 <div class="rightleg"></div>
 </div>
